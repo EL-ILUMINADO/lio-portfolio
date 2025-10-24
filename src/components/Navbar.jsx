@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
-import logo from "../assets/profile-logo/logo.jpg"; // Ensure you have a logo image in the specified path
+import logo from "../assets/profile-logo/logo.jpg";
+import Resume from "../assets/resume/PDFLawrenceResume.pdf";
 
 const Navbar = () => {
   return (
@@ -14,13 +15,22 @@ const Navbar = () => {
           {/* Center: Name */}
           <div className="text-xl font-bold text-white">L.I.O</div>
 
-          {/* Right: GitHub */}
-          <div>
+          {/* Right: Resume + GitHub */}
+          <div className="flex items-center gap-4">
+            <a
+              href={Resume}
+              download="Lawrence-Imana-Resume.pdf"
+              className="inline-block px-4 py-2 rounded bg-amber-700 text-white font-medium hover:bg-500-700 transition-colors"
+              aria-label="Download resume (PDF)"
+            >
+              Download Resume
+            </a>
+
             <a
               href="https://github.com/EL-ILUMINADO"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 text-gray-300 hover:text-white"
+              className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
             >
               <FaGithub size={20} />
               <span>GitHub</span>

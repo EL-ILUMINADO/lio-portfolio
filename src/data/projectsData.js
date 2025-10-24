@@ -4,10 +4,20 @@ import Ecom from "../assets/my-works/apple-ecom-store-landing-page.png";
 import Dashboard from "../assets/my-works/admin-dashboard-landing-page.png";
 import Omnifood from "../assets/my-works/omnifood-health-landing-page.png";
 import Translator from "../assets/my-works/translator-landing-page.png";
+import ResumeBuilder from "../assets/my-works/resume-builder.png";
 
 const projects = [
   {
     id: 1,
+    title: "Resume Builder Web App",
+    image: ResumeBuilder,
+    description:
+      "A full stack resume builder for creatives, developers, and designers.",
+    demoLink: "https://resumebuilder-frontend-1rm4.onrender.com/",
+    githubLink: "https://github.com/EL-ILUMINADO/resumebuilder",
+  },
+  {
+    id: 2,
     title: "AI Creator App",
     image: AIApp,
     description: "An AI-powered MERN app for generating creative content.",
@@ -15,7 +25,7 @@ const projects = [
     githubLink: "https://github.com/EL-ILUMINADO/ai-creator-app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Generative AI Image App",
     image: Imagify,
     description: "A MERN stack app for generating images from text prompts.",
@@ -23,7 +33,7 @@ const projects = [
     githubLink: "https://github.com/EL-ILUMINADO/saas-imagify",
   },
   {
-    id: 3,
+    id: 4,
     title: "E-commerce Store",
     image: Ecom,
     description: "Full-stack e-commerce app with shopping cart and payments.",
@@ -32,7 +42,7 @@ const projects = [
       "https://github.com/EL-ILUMINADO/Apple-Product-Store-reactJS-tailwind",
   },
   {
-    id: 4,
+    id: 5,
     title: "Admin Dashboard",
     image: Dashboard,
     description: "Responsive admin dashboard with charts and data tables.",
@@ -40,7 +50,7 @@ const projects = [
     githubLink: "https://github.com/EL-ILUMINADO/Admin-Dashboard-React",
   },
   {
-    id: 5,
+    id: 6,
     title: "Omnifood",
     image: Omnifood,
     description: "Responsive landing page for a food delivery service.",
@@ -48,7 +58,7 @@ const projects = [
     githubLink: "https://github.com/EL-ILUMINADO/07-Omnifood-Desktop",
   },
   {
-    id: 6,
+    id: 7,
     title: "Translator Web App",
     image: Translator,
     description: "Landing page for a language translation service.",
