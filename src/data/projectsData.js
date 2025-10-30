@@ -5,8 +5,20 @@ import Dashboard from "../assets/my-works/admin-dashboard-landing-page.png";
 import Omnifood from "../assets/my-works/omnifood-health-landing-page.png";
 import Translator from "../assets/my-works/translator-landing-page.png";
 import ResumeBuilder from "../assets/my-works/resume-builder.png";
+import NskaiOrg from "../assets/my-works/nskai-org.png";
+import CertificatePage from "../assets/my-works/certificate-page-nskai.png";
+import OnlyHorses from "../assets/my-works/onlyhorses.png";
 
 const projects = [
+  {
+    id: 1,
+    title: "OnlyHorses Web App",
+    image: OnlyHorses,
+    description:
+      "A subscription based platform where horse owners can share exclusive contents of their horses-videos, updates and behind the scenes moments..",
+    demoLink: "https://onlyfans-horses.vercel.app",
+    githubLink: "https://github.com/EL-ILUMINADO/onlyfans-horses",
+  },
   {
     id: 1,
     title: "Resume Builder Web App",
@@ -15,6 +27,15 @@ const projects = [
       "A full stack resume builder for creatives, developers, and designers.",
     demoLink: "https://resumebuilder-frontend-1rm4.onrender.com/",
     githubLink: "https://github.com/EL-ILUMINADO/resumebuilder",
+  },
+  {
+    id: 8,
+    title: "Nsk.AI Organization Website",
+    image: NskaiOrg,
+    description:
+      "A website for the Nsk.AI organization showcasing their mission and projects.",
+    demoLink: "https://nskai.org",
+    githubLink: "https://github.com/nskai-org/website-nskai",
   },
   {
     id: 2,
@@ -31,6 +52,14 @@ const projects = [
     description: "A MERN stack app for generating images from text prompts.",
     demoLink: "https://saas-imagify-frontend.onrender.com",
     githubLink: "https://github.com/EL-ILUMINADO/saas-imagify",
+  },
+  {
+    id: 9,
+    title: "Certificate Page - Nsk.AI",
+    image: CertificatePage,
+    description: "A certificate verification page for Nsk.AI courses.",
+    demoLink: "https://nskaicertificates.vercel.app",
+    githubLink: "https://github.com/EL-ILUMINADO",
   },
   {
     id: 4,
