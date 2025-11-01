@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import logo from "../assets/profile-logo/logo.jpg";
-import Resume from "../assets/resume/PDFLawrenceResume.pdf";
+// import Resume from "../assets/resume/PDFLawrenceResume.pdf";
 
 const Navbar = () => {
   return (
@@ -17,14 +17,14 @@ const Navbar = () => {
 
           {/* Right: Resume + GitHub */}
           <div className="flex items-center gap-4">
-            <a
+            {/* <a
               href={Resume}
               download="Lawrence-Imana-Resume.pdf"
               className="inline-block px-4 py-2 rounded bg-amber-700 text-white font-medium hover:bg-500-700 transition-colors"
               aria-label="Download resume (PDF)"
             >
               Download Resume
-            </a>
+            </a> */}
 
             <a
               href="https://github.com/EL-ILUMINADO"
